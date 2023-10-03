@@ -1,5 +1,5 @@
 #include <stdio.h> 
-
+//correccion del codigo
 int main() 
 {
     int n1, n2, resultado, suma; 
