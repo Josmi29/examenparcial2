@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//programa que reemplaza valores
 int main(){
 	int v1, v2, v3;
 	
