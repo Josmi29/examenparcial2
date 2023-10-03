@@ -1,5 +1,6 @@
 #include <stdio.h>
 //programa que reemplaza valores
+//jose miguel ruiz marquez 180200
 int main(){
 	int v1, v2, v3;
 	
