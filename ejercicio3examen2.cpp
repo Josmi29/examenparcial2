@@ -1,5 +1,6 @@
 #include <stdio.h>
 //codigo que genera una piramide en n numero de lineas
+//jose miguel ruiz marquez
 int main(){
 	int i, j, lineas;
 	
