@@ -1,9 +1,10 @@
 #include <stdio.h>
-//codigo que te dice si un año es bisiesto o no
+//codigo que te dice si un aÃ±o es bisiesto o no
+//jose miguek ruiz marquez
 int main(){
 	int a=0;
 	
-	printf("introduzca año:\n");
+	printf("introduzca aÃ±o:\n");
 	scanf("%d", &a);
 	
 	if( (a % 4 == 0) && (a % 100 != 0) || a % 400 == 0 )
