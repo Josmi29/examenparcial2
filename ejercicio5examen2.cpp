@@ -1,6 +1,6 @@
 #include <stdio.h>
 //codigo que te dice si un año es bisiesto o no
-//jose miguek ruiz marquez
+//jose miguek ruiz marquez 180200
 int main(){
 	int a=0;
 	
