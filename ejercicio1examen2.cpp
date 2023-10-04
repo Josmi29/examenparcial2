@@ -3,6 +3,7 @@
 #include <time.h>
 //programa que suma, resta, divide o multiplica numeros aleatorios
 //jose miguel ruiz marquez 180200
+
 int main() {
     srand(time(NULL));
 
