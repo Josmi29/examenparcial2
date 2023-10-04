@@ -6,36 +6,34 @@
 int main() {
     srand(time(NULL));
 
-    int repeticiones = 2;
+    int repeticiones = 2;  
     int opcion;
-
+    
     do {
         opcion = rand() % 5 + 1;
-        float num1 = (float)(rand() % 100) + 1;
-        float num2 = (float)(rand() % 100) + 1;
-        float resultado;
+        int num1 = rand() % 100 + 1;
+        int num2 = rand() % 100 + 1;
+        int resultado;
 
+        
         for (int i = 0; i < repeticiones; i++) {
             switch (opcion) {
                 case 1:
                     resultado = num1 + num2;
-                    printf("suma: %f + %f = %f\n", num1, num2, resultado);
+                    printf("suma: %d + %d = %d\n", num1, num2, resultado);
                     break;
                 case 2:
                     resultado = num1 - num2;
-                    printf("resta: %f - %f = %f\n", num1, num2, resultado);
+                    printf("resta: %d - %d = %d\n", num1, num2, resultado);
                     break;
                 case 3:
                     resultado = num1 * num2;
-                    printf("multiplicacion: %f * %f = %f\n", num1, num2, resultado);
+                    printf("multiplicacion: %d * %d = %d\n", num1, num2, resultado);
                     break;
                 case 4:
-                    if (num2 != 0) {
-                        resultado = num1 / num2;
-                        printf("division: %f / %f = %f\n", num1, num2, resultado);
-                    } else {
-                        printf("no se puede realizar\n");
-                    }
+                    resultado = num1 / num2;
+                    printf("division: %d / %d = %d\n", num1, num2, resultado);
+                    break;
                 case 5:
                     printf("fin de las operaciones\n");
                     break;
