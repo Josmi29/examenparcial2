@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-//programa que suma, resta, divide o multiplica numeros aleatorios
 //jose miguel ruiz marquez 180200
+//programa que hace operaciones random
 int main() {
     srand(time(NULL));
 
@@ -11,28 +11,27 @@ int main() {
     
     do {
         opcion = rand() % 5 + 1;
-        int num1 = rand() % 100 + 1;
-        int num2 = rand() % 100 + 1;
-        int resultado;
+        float num1 = (float)(rand() % 100 + 1);
+        float num2 = (float)(rand() % 100 + 1);
+        float resultado;
 
-        
         for (int i = 0; i < repeticiones; i++) {
             switch (opcion) {
                 case 1:
                     resultado = num1 + num2;
-                    printf("suma: %d + %d = %d\n", num1, num2, resultado);
+                    printf("suma: %f + %f = %f\n", num1, num2, resultado);
                     break;
                 case 2:
                     resultado = num1 - num2;
-                    printf("resta: %d - %d = %d\n", num1, num2, resultado);
+                    printf("resta: %f - %f = %f\n", num1, num2, resultado);
                     break;
                 case 3:
                     resultado = num1 * num2;
-                    printf("multiplicacion: %d * %d = %d\n", num1, num2, resultado);
+                    printf("multiplicacion: %f * %f = %f\n", num1, num2, resultado);
                     break;
                 case 4:
                     resultado = num1 / num2;
-                    printf("division: %d / %d = %d\n", num1, num2, resultado);
+                    printf("division: %f / %f = %f\n", num1, num2, resultado);
                     break;
                 case 5:
                     printf("fin de las operaciones\n");
