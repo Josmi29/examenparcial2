@@ -1,6 +1,7 @@
 #include <stdio.h> 
 //correccion del codigo
 //jose miguel ruiz marquez 180200
+
 int main() 
 {
     int n1, n2, resultado, suma; 
