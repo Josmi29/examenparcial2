@@ -4,16 +4,16 @@
 int main() {
     int v1, v2, v3;
 
-    printf("Ingresa el valor del primer num: ");
+    printf("escribe el valor del primer num: ");
     scanf("%d", &v1);
 
-    printf("Ingresa el valor del segundo num: ");
+    printf("escribe el valor del segundo num: ");
     scanf("%d", &v2);
 
-    printf("Ingresa el valor del tercer num: ");
+    printf("escribe el valor del tercer num: ");
     scanf("%d", &v3);
 
-    printf("Valores originales: %d, %d, %d\n", v1, v2, v3);
+    printf("valores originales: %d, %d, %d\n", v1, v2, v3);
 
  
     int temp = v1;
