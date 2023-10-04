@@ -1,21 +1,21 @@
 #include <stdio.h>
 //codigo que genera una piramide en n numero de lineas
-//jose miguel ruiz marquez
+//jose miguel ruiz marquez 180200
+int main() 
+{
+    int altura;
 
-int main(){
-	int i, j, lineas;
-	
-	printf("dime un num. de lineas para la piramide: ");
-	scanf("%d", &lineas);
-	
-	for(i=1;i<=lineas;i++)
+    printf("escribe la altura de tu piramide: ");
+    scanf("%d", &altura);
+
+    for (int i=1;i<=altura;i++) 
 	{
-		for(j=1;j<=i;j++)
-		printf("%d ", j);
-		printf("\n");
-	}
-	
-	
-	
-	return 0;
+        for (int j=1;j<=i;j++) 
+		{
+            printf("%d ", j);
+        }
+        printf("\n");
+    }
+
+    return 0;
 }
