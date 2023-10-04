@@ -19,20 +19,23 @@ int main() {
             switch (opcion) {
                 case 1:
                     resultado = num1 + num2;
-                    printf("suma: %.2f + %.2f = %.2f\n", num1, num2, resultado);
+                    printf("suma: %f + %f = %f\n", num1, num2, resultado);
                     break;
                 case 2:
                     resultado = num1 - num2;
-                    printf("resta: %.2f - %.2f = %.2f\n", num1, num2, resultado);
+                    printf("resta: %f - %f = %f\n", num1, num2, resultado);
                     break;
                 case 3:
                     resultado = num1 * num2;
-                    printf("multiplicacion: %.2f * %.2f = %.2f\n", num1, num2, resultado);
+                    printf("multiplicacion: %f * %f = %f\n", num1, num2, resultado);
                     break;
                 case 4:
-                    resultado = num1 / num2;
-                    printf("division: %d / %d = %d\n", num1, num2, resultado);
-                    break;
+                    if (num2 != 0) {
+                        resultado = num1 / num2;
+                        printf("division: %f / %f = %f\n", num1, num2, resultado);
+                    } else {
+                        printf("no se puede realizar\n");
+                    }
                 case 5:
                     printf("fin de las operaciones\n");
                     break;
