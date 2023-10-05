@@ -1,7 +1,6 @@
 #include <stdio.h>
 //multiplos del 3
 //jose miguel ruiz marquez 180200
-
 int main() {
 	int i;
 	
