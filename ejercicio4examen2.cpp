@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+//jose miguel ruiz marquez
+//180200
 int main() 
 {
     int v1, v2, v3;
