@@ -3,13 +3,15 @@
 #include <time.h>
 //jose miguel ruiz marquez 180200
 //programa que hace operaciones random
-int main() {
+int main() 
+{
     srand(time(NULL));
 
     int repeticiones = 2;  
     int opcion;
     
-    do {
+    do 
+	{
         opcion = rand() % 5 + 1;
         float num1 = (float)(rand() % 100 + 1);
         float num2 = (float)(rand() % 100 + 1);
