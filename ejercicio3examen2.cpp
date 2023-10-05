@@ -5,17 +5,24 @@ int main()
 {
     int altura;
 
-    printf("escribe la altura de tu piramide: ");
+    printf("escribe la altura de tu piramide(menos de 60):");
     scanf("%d", &altura);
-
-    for (int i=1;i<=altura;i++) 
+	
+	if(altura <= 60)
 	{
-        for (int j=1;j<=i;j++) 
+    	for (int i=1;i<=altura;i++) 
 		{
-            printf("%d ", j);
-        }
+        	for (int j=1;j<=i;j++) 
+			{
+            	printf("%d ", j);
+        	}
         printf("\n");
-    }
-
+    	}
+	} 
+	else
+	{
+		printf("muy grande :(");
+	}
+	
     return 0;
 }
