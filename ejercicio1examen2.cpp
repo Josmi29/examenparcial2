@@ -3,6 +3,7 @@
 #include <time.h>
 //jose miguel ruiz marquez 180200
 //programa que hace operaciones random
+
 int main() {
     srand(time(NULL));
 
