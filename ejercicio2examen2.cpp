@@ -8,11 +8,11 @@ int main() {
 	{
         if (i % 3 == 0) 
 		{
-            printf("%d es multiplo de tres\n", i);
+            printf("%d es multiplo de tres\n\n", i);
         } 
 		else 
 		{
-            printf("%d no es multiplo de tres\n", i);
+            printf("%d no es multiplo de tres\n\n", i);
         }
     }
 
